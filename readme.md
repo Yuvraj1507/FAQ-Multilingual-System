@@ -53,7 +53,8 @@ The project uses the Google Translate API (or `googletrans` library) to automate
 The FAQ model is registered in the Django Admin panel, providing a user-friendly interface for managing FAQs, enabling easy addition, editing, and deletion of FAQs.
 
 
-![Screenshot 2025-02-02 172941](https://github.com/user-attachments/assets/438376e3-1b68-424b-a663-0679f4887e81)
+![Screenshot 2025-02-02 172941](https://github.com/user-attachments/assets/6857efc9-918d-4124-b030-d2f477d4f568)
+
 
 
 
