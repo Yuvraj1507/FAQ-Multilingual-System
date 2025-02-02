@@ -32,17 +32,30 @@ A Django REST API is created to manage FAQs with the following features:
 - Support for language selection via the `?lang=` query parameter.
 - Efficient responses leveraging pre-translation to enhance performance.
 
+
+
+
 ## Caching Mechanism
 
 The Django caching framework is implemented to store translations efficiently. Redis is utilized for improved performance, ensuring quick access to frequently requested data.
+
+![image](https://github.com/user-attachments/assets/a0934de9-cfba-4157-9021-ff860be4a576)
+
 
 ## Multi-language Translation Support
 
 The project uses the Google Translate API (or `googletrans` library) to automate translations during object creation. In cases where a translation is unavailable, a fallback to English is provided.
 
+
+
 ## Django Admin Panel
 
 The FAQ model is registered in the Django Admin panel, providing a user-friendly interface for managing FAQs, enabling easy addition, editing, and deletion of FAQs.
+
+
+![Screenshot 2025-02-02 172941](https://github.com/user-attachments/assets/438376e3-1b68-424b-a663-0679f4887e81)
+
+
 
 ## Unit Tests & Code Quality
 
@@ -83,6 +96,10 @@ The app should be accessible at http://localhost:8000/.
 
 ~ (Optional) To test the app, you can also use Postman or curl commands to interact with the API. 
 I Used Postman to Interact with the API.
+
+
+![Screenshot 2025-02-02 175719](https://github.com/user-attachments/assets/bf0205da-f70a-4717-8438-6574d9527525)
+
 
 API Usage:
 
