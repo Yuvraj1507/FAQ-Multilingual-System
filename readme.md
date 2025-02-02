@@ -84,7 +84,8 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install -r requirements.txt
 
 
-~ Set up Redis on my local machine or use Docker to run it. (Followed Redis installation for local setup)
+~ Set up Redis on my local machine I used Docker to run Redis instead of installing 
+it directly on my local machine.(Followed Redis installation for local setup)
 
 
 # Run migrations to set up the database:
